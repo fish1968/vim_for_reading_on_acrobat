@@ -99,6 +99,7 @@ return
     Send {Esc}
 return
 
+
 ;go back into normal mode after scrolling with any control command
 
 ^e::
@@ -132,4 +133,5 @@ i::
     } else {
         inAcrobatSearchMode := true
     }
+return
 #IfWinActive

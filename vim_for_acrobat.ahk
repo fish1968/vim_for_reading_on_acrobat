@@ -126,4 +126,15 @@ return
     Send {Esc}{PgUp}
 return
 
+i::
+    if (inAcrobatSearchMode) {
+        Send i
+    } else {
+        inAcrobatSearchMode := true
+        ; Usually it would open the right menu for starting editing
+        Click, Right
+        Send x
+        Click, Left
+    }
+return
 #IfWinActive
