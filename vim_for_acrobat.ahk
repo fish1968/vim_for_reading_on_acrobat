@@ -92,6 +92,8 @@ return
 Esc::
     inAcrobatSearchMode := false
     Send {Esc}
+    Sleep, 100
+    Send {Esc}
 return
 
 ^[::
@@ -134,6 +136,7 @@ i::
         ; Usually it would open the right menu for starting editing
         Click, Right
         Send x
+        sleep, 100
         Click, Left
     }
 return
