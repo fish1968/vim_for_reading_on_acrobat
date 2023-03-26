@@ -99,11 +99,6 @@ return
     Send {Esc}
 return
 
-Enter::
-    if (inAcrobatSearchMode)
-        inAcrobatSearchMode := false
-    Send {Enter}
-return
 
 ;go back into normal mode after scrolling with any control command
 
