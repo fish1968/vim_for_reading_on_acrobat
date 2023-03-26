@@ -131,4 +131,15 @@ return
     Send {Esc}{PgUp}
 return
 
+; Usethiskey to force enter the editing mode
+Home::
+    inAcrobatSearchMode := true
+return
+
+i::
+    if (inAcrobatSearchMode) {
+        Send i
+    } else {
+        inAcrobatSearchMode := true
+    }
 #IfWinActive
