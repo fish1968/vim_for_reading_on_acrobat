@@ -122,8 +122,8 @@ return
 return
 
 ^f::
-    inAcrobatSearchMode := false
-    Send {Esc}{PgDn}
+    Send ^f
+    inAcrobatSearchMode := true
 return
 
 ^b::

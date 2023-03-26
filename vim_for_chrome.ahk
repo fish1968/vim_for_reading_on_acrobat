@@ -122,14 +122,10 @@ return
 return
 
 ^f::
-    inAcrobatSearchMode := false
-    Send {Esc}{PgDn}
+    Send ^f
+    inAcrobatSearchMode := true
 return
 
-^b::
-    inAcrobatSearchMode := false
-    Send {Esc}{PgUp}
-return
 
 ; Usethiskey to force enter the editing mode
 Home::
