@@ -30,7 +30,7 @@ return
 
 u::
     if (inAcrobatSearchMode)
-        Send d
+        Send u
     else
 ;        Send {Up 50}
         sendinput {wheelup 20}
