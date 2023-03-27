@@ -134,4 +134,9 @@ i::
         inAcrobatSearchMode := true
     }
 return
+
+^!p::  ; Press Ctrl+Alt+P to pause. Press it again to resume.
+    suspend
+    pause,,1
+    return
 #IfWinActive
