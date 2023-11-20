@@ -131,4 +131,19 @@ return
     Send {Esc}{PgUp}
 return
 
+!j::
+    if (inAcrobatSearchMode)
+        Send j
+    else
+        sendinput {alt}{left}
+return
+
+
+!k::
+    if (inAcrobatSearchMode)
+        Send k
+    else
+        sendinput {alt}{right}
+return
+
 #IfWinActive

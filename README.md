@@ -24,6 +24,8 @@ Here are my mostly used keys in reading. You could see and edit the script to ad
 |   esc   |                              |                         |
 |   gg    |           go Home            |  move view to the top   |
 | shift+g |            go End            | move view to the bottom |
+|  alt+j  |       alt + left key         | move to last view       |
+|  alt+k  |       alt + right key        | move to next view (if possible) |
 
 
 
@@ -32,3 +34,8 @@ Here are my mostly used keys in reading. You could see and edit the script to ad
 Main frame of the code is from [Gordon Gustafson](https://superuser.com/users/2474/gordon-gustafson)'s [post on StackExchange](https://superuser.com/a/692066/1774066).
 
 ChatGPT is used to upgrade [Gordon Gustafson](https://superuser.com/users/2474/gordon-gustafson)'s code to current version of AHK.
+
+# comments
+
+Better use VIM Extension of browser instead to use this shit to suit the large sophisticated Acrobat Reader.
+Recommended vim extensions: Vimium-C, and PDF Viewer for Vimium-C
