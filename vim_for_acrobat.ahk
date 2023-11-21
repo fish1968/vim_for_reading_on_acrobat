@@ -1,4 +1,12 @@
 ﻿#If WinActive("ahk_class AcrobatSDIWindow")
+
+i::
+    if (inAcrobatSearchMode)
+        Send i
+    else
+        inAcrobatSearchMode := true
+return
+
 h::
     if (inAcrobatSearchMode)
         Send h

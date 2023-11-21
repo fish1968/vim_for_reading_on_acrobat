@@ -26,6 +26,7 @@ Here are my mostly used keys in reading. You could see and edit the script to ad
 | shift+g |            go End            | move view to the bottom |
 |  alt+j  |       alt + left key         | move to last view       |
 |  alt+k  |       alt + right key        | move to next view (if possible) |
+| i | Stop vim mode |  |
 
 
 
